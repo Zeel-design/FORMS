@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .container {
+      padding: 50px;
+      border: 1ch;
+    }
+    .row,
+    .form-row {
+      color: rgb(0, 0, 0);
+    }
+    .form-control {
+      background: rgb(241, 237, 237);
+    }
+  </style>
+  <body>
+    <form>
+      <div class="container">
+        
+        <label>Ad name:</label>
+        <input type="text" class="form-control" />
+
+        <label>Ad description:</label>
+        <textarea class="form-control"> </textarea>
+
+        <label>Ad type:</label>
+        <input type="text" class="form-control" />
+
+        <label>Ad cost:</label>
+        <input
+          type="text"
+          class="form-control"
+        />
+        <label>Ad start date </label>
+        <input type="date" class="form-control"/>
+        <label>Ad end date</label>
+        <input type="date" class="form-control" />
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
